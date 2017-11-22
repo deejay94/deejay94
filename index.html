@@ -1,38 +1,101 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Portfolio</title>
-    </head>
-    <body class="container-fluid">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Dahnaya Joyner's Portfolio</title>
 
-      <h1> Dahnaya Joyner</h1>
-<h2>About Me:</h2>
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Dahnaya Joyner</a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="#skills">Skills</a></li>
+        <li class="active"><a href="#projects">Projects</a></li>
 
-<a href="https://imgur.com/Z0ucjnG"><img src="https://i.imgur.com/Z0ucjnG.jpg" title="source: imgur.com" /></a>
-<p>My name is Dahnaya Joyner. I am a web developer in training.
-I have a background in Computer Engineering Technology.
-</p>
+      </ul>
 
-<hr class="half-rule">
+      <ul id="nav-mobile" class="side-nav">
+        <li class="active"><a href="#skills">Skills</a></li>
+        <li class="active"><a href="#projects">Projects</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2"></h1>
+        <div class="about row center">
+          <h5 class="header col s12 light">Computer Engineer turned web-developer.
+            Rubik's Cube enthusiast. Dancer.
+           </h5>
+        </div>
+
+        <div class="contact row center">
+          <a href="https://github.com/deejay94" class="btn btn-default featured">Github</a>
+          <a href="https://www.linkedin.com/in/dahnayajoyner/" class="btn btn-default featured">LinkedIn</a>
+          <a href="mailto:dahjoyner12@gmail.com" class="btn btn-default featured">Email</a>
+          <a href="resume/resume.pdf" target="_blank" class="btn btn-default featured" download>Resume</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="grad-pic.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
 
+  <div class="container">
+    <div class="section">
 
+      <!--   Icon Section   -->
+      <div class="row" id="skills">
+          <h1 class="caps">SKILLS</h1>
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <!-- <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2> -->
 
-    <h2>Skills:</h2>
+    <img class="icon responsive-img" src="icon/javascript.png">
+            <h5 class="center">Javascript</h5>
+          </div>
+        </div>
 
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam justo arcu, eleifend eget bibendum at, tincidunt a lorem. Nunc efficitur volutpat sapien in accumsan. Nullam et diam sollicitudin, eleifend lectus vel, dignissim sem. Etiam quis laoreet diam. Duis semper est lorem, et facilisis ligula blandit nec. Proin interdum elit lectus, in tincidunt augue auctor a. Curabitur malesuada id tortor quis scelerisque. Fusce sollicitudin lacinia arcu.
-      </p>
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <img class="icon responsive-img" src="icon/css.jpg">
+         <h5 class="center">CSS</h5>
+          </div>
+        </div>
 
+        <div class="col s12 m3">
+          <div class="icon-block">
+            <img class="icon responsive-img" src="icon/rails.png">
+            <h5 class="center">Ruby on Rails</h5>
+          </div>
+        </div>
 
+      <div class="col s12 m3">
+        <div class="icon-block">
+          <img class="icon responsive-img" src="icon/ruby.png">
+          <h5 class="center">Ruby</h5>
+        </div>
+      </div>
+    </div>
 
-    <hr class="half-rule">
-
-    <h2>Contact Info:</h2>
-
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam justo arcu, eleifend eget bibendum at, tincidunt a lorem. Nunc efficitur volutpat sapien in accumsan. Nullam et diam sollicitudin, eleifend lectus vel, dignissim sem. Etiam quis laoreet diam. Duis semper est lorem, et facilisis ligula blandit nec. Proin interdum elit lectus, in tincidunt augue auctor a. Curabitur malesuada id tortor quis scelerisque. Fusce sollicitudin lacinia arcu.
-    </p>
-
-    <hr class="half-rule">
+    <div class="row center">
+    <div class="col s12 m3">
+      <div class="icon-block">
+        <img class="icon responsive-img" src="icon/jquery-logo.png">
+        <h5 class="center">jQuery</h5>
+      </div>
+    </div>
 
     <h2>Resume:</h2>
     <section id="section-resume" class="section-padding">
@@ -56,16 +119,213 @@ I have a background in Computer Engineering Technology.
 
    </section>
 
-    <hr class="half-rule">
+  <div class="col s12 m3">
+    <div class="icon-block">
+      <img class="icon responsive-img" src="icon/bootstrap.png">
+      <h5 class="center">Bootstrap</h5>
+    </div>
+  </div>
 
-    <h2>Projects:</h2>
+  <div class="col s12 m3">
+    <div class="icon-block">
+      <img class="icon responsive-img" src="icon/psql.png">
+      <h5 class="center">PostgreSQl</h5>
+    </div>
+  </div>
 
-<p> Tic tac toe-live site: https://deejay94.github.io/ttt-game-project1/<br>
-    Tic tac toe-repo: https://github.com/deejay94/ttt-game-project1
-  </p>
-  <p> Full-Stack project live-site: https://deejay94.github.io/favorite-movies/<br>
-    Full-Stack front-end repo: https://github.com/deejay94/favorite-movies <br>
-    Full-Stack back-end repo: https://github.com/deejay94/project2-rails
-  </p>
+  <div class="col s12 m3">
+    <div class="icon-block">
+      <img class="icon responsive-img" src="icon/sql.png">
+      <h5 class="center">SQl</h5>
+    </div>
+  </div>
+</div>
+
+<div class="row center">
+<div class="col s12 m3">
+  <div class="icon-block">
+    <img class="icon responsive-img" src="icon/scss.png">
+    <h5 class="center">SCSS</h5>
+  </div>
+</div>
+
+<div class="col s12 m3">
+  <div class="icon-block">
+    <img class="icon responsive-img" src="icon/git_logo.png">
+    <h5 class="center">Git</h5>
+  </div>
+</div>
+
+<div class="col s12 m3">
+  <div class="icon-block">
+    <img class="icon responsive-img" src="icon/github2.png">
+    <h5 class="center">Github</h5>
+  </div>
+</div>
+
+<div class="col s12 m3">
+  <div class="icon-block">
+    <img class="icon responsive-img" src="icon/ember3.png">
+    <h5 class="center">Ember</h5>
+  </div>
+</div>
+</div>
+
+<div class="row center">
+<div class="col s12 m3">
+  <div class="icon-block">
+    <img class="icon responsive-img" src="icon/mongo.jpg">
+    <h5 class="center">MongoDB</h5>
+  </div>
+</div>
+
+<div class="col s12 m3">
+  <div class="icon-block">
+    <img class="icon responsive-img" src="icon/handlebars.svg">
+    <h5 class="center">Handlebars</h5>
+  </div>
+</div>
+
+<div class="col s12 m3">
+  <div class="icon-block">
+    <img class="icon responsive-img" src="icon/ajax.png">
+    <h5 class="center">AJAX</h5>
+  </div>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="rubiks-cube.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row" id="projects">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <section class="projects">
+          <h1 class="caps">PROJECTS</h1>
+          <div class="row">
+            <div class="first2 col s12 m4">
+              <h3>
+                <a target="_blank" href="https://deejay94.github.io/ttt-game-project1/">Tic-Tac Glow
+                </a>
+              </h3>
+              <img alt="Tic-Tic Glow" src="icon/tictactoe.png">
+              <p>
+                Your classic childhood game of Tic-Tac Toe with a glow-in-the-
+                dark theme.
+              </p>
+              <p> Technology used: HTML, CSS, jQuery, Javascript</p>
+              <div class=" align left btns">
+                <a target="_blank" class="prjct-btn" href="https://deejay94.github.io/ttt-game-project1">App
+                </a>
+                <a target="_blank" class="prjct-btn" href="https://github.com/deejay94/ttt-game-project1">Repo
+                </a>
+              </div>
+          </div>
+
+        <div class="first2 col s12 m4" id="fullstack">
+          <h3>
+            <a target="_blank" href="https://deejay94.github.io/favorite-movies/">Favorite Movies
+            </a>
+          </h3>
+          <img src="icon/fave.png">
+          <p>
+            A full-stack application where users can make a list of their
+            favorite movies.
+          </p>
+          <p>Technology used: HTML, CSS, jQuery, Javascript, Ruby, Ruby on Rails</p>
+          <div class="btns">
+            <a target="_blank" class="prjct-btn" href="https://deejay94.github.io/favorite-movies/">App
+            </a>
+            <a target="_blank" class="prjct-btn" href="https://github.com/deejay94/favorite-movies">Front-end Repo
+            </a>
+            <a target="_blank" class="prjct-btn" href="https://github.com/deejay94/project2-rails">Back-end Repo
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="last2 col s12 m4">
+              <h3>
+                <a target="_blank" href="https://d0minators.github.io/CMS/">
+                  Sserpdrow
+                </a>
+              </h3>
+              <img src="icon/cms.png">
+              <p>
+                A CMS where users can create, update, and delete their own
+                blogs and read other user's blogs.
+              </p>
+              <p>Technology used: HTML, CSS, jQuery, Javascript, MongoDB, Mongoose, Express</p>
+              <div class="btns">
+                <a target="_blank" class="prjct-btn" href="https://d0minators.github.io/CMS/">App
+                </a>
+                <a target="_blank" class="prjct-btn" href="https://github.com/deejay94/CMS">Front-end Repo
+                </a>
+                <a target="_blank" class="prjct-btn" href="https://github.com/D0Minators/CMS-API">Back-end Repo
+                </a>
+                </div>
+              </div>
+            <div class="last2 col s12 m4" id="capstone">
+              <h3>
+                <a target="_blank" href="https://deejay94.github.io/budget/">
+                  Budget x Tracker
+                </a>
+              </h3>
+              <img src="icon/budget.png">
+              <p> An Ember App where users can keep track of their budget.</p>
+              <p> Technology used: Ember, HTML, CSS, Javascript, Ruby, Ruby on Rails</p>
+              <div class="btns">
+                <a target="_blank" class="prjct-btn" href="https://deejay94.github.io/budget/">App
+                </a>
+                <a target="_blank" class="prjct-btn" href="https://github.com/deejay94/budget">Front-end Repo
+                </a>
+                <a target="_blank" class="prjct-btn" href="https://github.com/deejay94/budget-api">Back-end Repo
+                </a>
+                </div>
+            </div>
+          </div>
+          </section>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="icon/dance.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
   </body>
 </html>
