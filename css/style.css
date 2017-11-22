@@ -1,0 +1,140 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #e7717d;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.btn {
+  margin-top: 180px;
+}
+
+.btns {
+margin: 35px 0px 10px 0px;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.caps {
+  color: #e7717d;
+  text-decoration: underline;
+  }
+
+#capstone {
+  margin-left: 150px;
+}
+
+.contact a {
+  margin-top: 260px;
+  float: left;
+  display: block;
+  border: 2px solid #fbfdff;
+  margin-right: 5px;
+  padding: 5px;
+  background-color: #e7717d;
+}
+
+.first2 {
+  border: 2px solid #fbfdff;
+  border-color: black;
+  padding: 20px;
+}
+
+.first2 > img { max-width: 100%; height: auto; }
+
+.first2 a {
+  color: #e7717d;
+}
+
+#fullstack {
+  margin-left: 150px;
+  }
+
+.icon {
+  width: 30%;
+}
+
+.last2 {
+  border: 2px solid #fbfdff;
+  border-color: black;
+  padding: 20px;
+}
+
+.last2 > img { max-width: 100%; height: auto; }
+
+.last2 a {
+  color: #e7717d;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  #skills {
+    text-align: center;
+  }
+
+  .projects {
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .prjct-btn {
+    border: 2px solid #e7717d;
+    margin-right: 5px;
+    padding: 5px;
+  }
+
+  .prjct-btn:hover {
+    background-color: #e7717d;
+    color: white;
+  }
+
+  .prjct-pic {
+    width: 120%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
